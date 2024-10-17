@@ -1,0 +1,36 @@
+{
+  "name": "luax-syntax-highlighter",
+  "displayName": "luax-syntax-highlighter",
+  "description": "lua html syntax with javascript embedded support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "luax",
+      "aliases": ["luax", "lua", "html", "javascript"],
+      "extensions": [".luax"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "luax",
+      "scopeName": "source.lua.html",
+      "path": "./syntaxes/lua_with_html.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/luax-syntax-highlighter.git"
+  },
+  "keywords": ["luax", "lua", "html", "javascript"],
+  "author": "shahrul nizam selamat<hottincup@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/syarul/luax-syntax-highlighter/issues"
+  },
+  "homepage": "https://github.com/syarul/luax-syntax-highlighter#readme"
+}
